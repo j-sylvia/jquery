@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function(){
+                $('#div1').click(function(){
+                    $('#div2').slideDown(5000);
+                });
+                $('#div2').click(function(){
+                    $('#div2').slideUp();
+                });
+            });
+    </script>
+    <style>
+        #div1, #div2{
+            padding: 10px;
+            text-align: center;
+            background-color: rgb(78, 122, 160);
+            border: solid 1px red;
+        }
+        #div2{
+            padding: 50px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">Click to slide down</div>
+    <div id="div2">Hellooo</div>
+    
+</body>
+</html>
