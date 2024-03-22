@@ -1,3 +1,5 @@
+{
+  "albums":
 [
   {
     "userId": 1,
@@ -500,3 +502,4 @@
     "title": "enim repellat iste"
   }
 ]
+}
